@@ -104,15 +104,13 @@ public class AOAVisualizer {
             // Tạo sẵn 5 công việc
             String[][] sampleTasks = {
             	//Công việc, thời gian thực hiện, công việc trước đó
-                {"A", "5", ""},
-                {"B", "6", ""},
-                {"C", "5", ""},
-                {"D", "7", "A"},
-                {"E", "8", "B,C"},
-                {"F", "12", "D,E"},
-                {"G", "7", "E,F"},
-                {"H", "8", "F,G"},
-                {"I", "8", "G,H"},
+                {"A", "4", ""},
+                {"B", "2", "A"},
+                {"C", "4", "A"},
+                {"D", "5", "B"},
+                {"E", "5", "C,D"},
+                {"F", "2", "C"},
+                {"G", "5", "E,F"},
             };
 
             // Số lượng công việc
